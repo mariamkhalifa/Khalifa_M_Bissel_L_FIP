@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*CSS Documnent*/
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 
+{ 
+margin: 0; 
+padding: 0; 
+} 
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+/*html selectors*/
+
+body 
+{
+  font-family: "Agency FB";
+  font-size: 16px;
+  color: #000;
+  background-color: #ededed;
+}
+
+/*a:link is for not visited, a:visited is for visited, and just a applies to both.*/
+/*a will also style anchor links*/
+
+a:link, a:visited { 
+text-decoration:none; 
+}
+
+a:hover, a:active { 
+text-decoration:none; 
+ }
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden
+{
+  display: none;
+}
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #887489;
+}
+
+#topBar
+{
+	height: 20px;
+	background-color: #887489
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-dierction: row;
+	justify-content: flex-start;
+	background-color: red;
+}
+
+#logo
+{
+	width: 200px;
+	height: 101px;
+}
+
