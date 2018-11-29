@@ -225,6 +225,9 @@ text-decoration:none;
 	float: right;
 	margin-top: 100px;
 	text-align: center;
+	font-size: 30px;
+	color: #6d6e71;
+	font-weight: bold;
 }
 
 #outsideBox
@@ -240,6 +243,7 @@ text-decoration:none;
 	bottom: 265px;
 	font-weight: bold;
 	text-align: center;
+	color: #6d6e71;
 }
 
 .box2 h2
@@ -248,6 +252,7 @@ text-decoration:none;
 	bottom: 265px;
 	font-weight: bold;
 	text-align: center;
+	color: #6d6e71;
 }
 
 .box3 h2
@@ -256,6 +261,7 @@ text-decoration:none;
 	bottom: 265px;
 	font-weight: bold;
 	text-align: center;
+	color: #6d6e71;
 }
 
 .box4 h2
@@ -264,6 +270,7 @@ text-decoration:none;
 	bottom: 265px;
 	font-weight: bold;
 	text-align: center;
+	color: #6d6e71;
 }
 
 /*gallery page*/
@@ -329,4 +336,44 @@ text-decoration:none;
 	font-weight: bold;
 }
 
+/*Contact Page*/
 
+#mainContact
+{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;	
+}
+
+#contactArea
+{
+	width: 445px;
+	background-color: #a096a1;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	margin-left: 20px;
+}
+
+#contactFrom
+{
+	margin-top: 30px;
+}
+
+#contactForm h2
+{
+	color: 
+}
+
+#mapArea
+{
+	width: 445px;
+	height: 635px;
+	background-color: #a096a1;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	margin-right: 20px;
+}
