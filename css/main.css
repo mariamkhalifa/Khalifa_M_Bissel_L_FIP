@@ -76,7 +76,7 @@ text-decoration:none;
 
 #mainNav
 {
-	width: 360px;
+	width: 400px;
 	height: 100px;
 	margin-left: auto;
 	margin-top: 70px;
@@ -89,7 +89,7 @@ text-decoration:none;
 
 #mainNav ul li 
 {
- 	font-size: 18px;
+ 	font-size: 22px;
  	display: inline;
  	cursor: pointer;
  	margin-left: 20px;
@@ -111,13 +111,13 @@ text-decoration:none;
 {
 	display: flex;
 	flex-dierction: row;
-	justify-content: flex-start;
+	justify-content: space-between;
 	margin-top: 20px;
 }
 
 #FooterNav
 {
-	width: 360px;
+	width: 400px;
 	height: 100px;
 	margin-left: auto;
 }
@@ -129,7 +129,7 @@ text-decoration:none;
 
 #footerNav ul li 
 {
- 	font-size: 18px;
+ 	font-size: 22px;
  	display: inline;
  	cursor: pointer;
  	font-weight: bold;
@@ -208,26 +208,37 @@ text-decoration:none;
 
 /*HOME PAGE*/
 
+#homeContent
+{
+	width: 930px;
+	height: 710px;
+	margin: 0 auto;
+	background-color: #a096a1;
+}
+
 #mainContent
 {
 	display: flex;
-	justify-content: space-evenly;
-	margin-top: 50px;
+	justify-content: flex-start;
+	margin-top: 10px;
 }
 
 .promoImage 
 {
 	float: left;
+	margin-top: 28px;
+	margin-left: 20px;
 }
 
 .promoText
 {
 	float: right;
-	margin-top: 100px;
-	text-align: center;
-	font-size: 30px;
+	margin-top: 30px;
+	text-align: left;
+	font-size: 25px;
 	color: #6d6e71;
 	font-weight: bold;
+	padding: 20px;
 }
 
 #outsideBox
@@ -240,16 +251,27 @@ text-decoration:none;
 .box1 h2
 {
 	position: relative;
-	bottom: 265px;
+	bottom: 280px;
 	font-weight: bold;
 	text-align: center;
 	color: #6d6e71;
 }
 
+#productText
+{
+	position: relative;
+	bottom: 280px;
+	text-align: center;
+	color: #6d6e71;
+	font-size: 17px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
 .box2 h2
 {
 	position: relative;
-	bottom: 265px;
+	bottom: 280px;
 	font-weight: bold;
 	text-align: center;
 	color: #6d6e71;
@@ -258,7 +280,7 @@ text-decoration:none;
 .box3 h2
 {
 	position: relative;
-	bottom: 265px;
+	bottom: 280px;
 	font-weight: bold;
 	text-align: center;
 	color: #6d6e71;
@@ -267,7 +289,7 @@ text-decoration:none;
 .box4 h2
 {
 	position: relative;
-	bottom: 265px;
+	bottom: 280px;
 	font-weight: bold;
 	text-align: center;
 	color: #6d6e71;
@@ -381,7 +403,7 @@ text-decoration:none;
 }
 #contactForm
 {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 label
@@ -394,12 +416,54 @@ label
 	display: block;	
 }
 
+input, textarea  
+{
+  	font-size: 12px;
+  	margin-top: 5px;
+  	margin-left: 20px;
+  	padding: 15px
+  	width: 300px;
+  	height: 20px;
+  	background-color: white;
+  	display: block;
+  	border: 1px solid #999;
+  	color: #333;
+}
+
+#comments
+{
+  width: 360px;
+  height: 150px;
+}
+
+#submit
+{
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  color: #6d6e71;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #b7a6a1;
+  font-size: 14px;
+  border: 1px solid #56575a;
+  cursor: pointer;
+}
+
 #mapArea
 {
 	width: 445px;
 	height: 635px;
 	background-color: #a096a1;
   	margin-left: 20px;
+  	margin-right: 20px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
 }
 
 #mapArea h3
@@ -411,3 +475,22 @@ label
 	margin-left: 20px;	
 }
 
+#mapArea ul
+{
+  	list-style-type: none;
+  	padding: 0;
+}
+
+#mapArea li 
+{
+	color: #56575a;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 20px;	
+}
+
+iframe
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
