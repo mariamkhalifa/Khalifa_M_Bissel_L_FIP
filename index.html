@@ -6,73 +6,82 @@
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
-    <h1 class="hidden">My Mug</h1>
-    <div id="siteContainer">
-        
+    <div id="container">
+    <section id="topBar"></section>
+
         <header id="mainHeader">
             
             <div id="logo"><img src="images/logo.png" alt="logo" width="201" height="100"></div><!--end logo-->
             
-            <nav id="mainNav">
-                <h2 class="hidden">Main Navigation</h2>
+            <nav class="mainNav">
                 <ul>
-                    <li><a href="index.html"></a>Home</li>
-                    <li><a href="gallery.html"></a>Gallery</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="contact.html"></a>Contact</li>
+                    <li class="selected"><a href="#">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav><!--end mainNav-->
 
 
 
-
-
         </header><!--end mainHeader-->
-        <section id="promo">
-        	<div id="promoImage">
-             <img src="images/main.jpg" alt="mug and beautiful background" width="570" height="300"></div><!--end promoImage-->
-            <div id="promoText"><h2 class="productText">We take mugs very seriously. We have a mug for every time and every occasion</h2></div><!--end promoText-->
-        </section><!--end promo-->
-        
-        <section id="productInfo">
-        	<section class="productDesc">
+        <div id="mainContent">
+        	<div class="promoImage">
+                    <img src="images/main.jpg" alt="mug and beautiful background" width="570" height="300" class="testImage"></div><!--end promoImage-->
+            <div class="promoText">
+                <h1>We take mugs very seriouslyh2<br>We have a mug for every time<br>and every occasion</h1>
+            </div><!--end promoText-->
+        </div><!--end mainContent-->
+
+
+
+        <div id="outsideBox">
+        	<div class="box1">
                 <img src="images/home-1.jpg" alt="wonderwoman mug" width="200" height="300">
-                <h3 id="product1">Fun Mugs</h3>
-            </section><!--end productDesc1-->
-
-            <section class="productDesc">
-                <img src="images/home-2.jpg" alt="coffee makes everythinig better" width="200" height="300">
-                <h3 id="product2">Inspirational Mugs</h3>
-            </section><!--end productDesc2-->
-
-            <section class="productDesc">
-                <img src="images/home-3.jpg" alt="coffee makes everythinig better" width="200" height="300">
-                <h3 id="product3">Decorative Mugs</h3>
-            </section><!--end productDesc3-->
-
-            <section class="productDesc">
-                <img src="images/home-4.jpg" alt="coffee makes everythinig better" width="200" height="300">
-                <h3 id="product4">Simple Mugs</h3>
-            </section><!--end productDesc4-->
-        </section><!--end productInfo-->
+                <div class="textWrap1">
+                <h2 id="product1">Fun Mugs</h2>
+            </div><!--end box1-->
+            </div><!--end textWrap1-->
 
 
+
+            <div class="box2">
+                <img src="images/home-2.jpg" alt="inspirational words on mug" width="200" height="300">
+                <div class="textWrap2">
+                <h2 id="product2">Inspirational Mugs</h2>
+            </div><!--end box2-->
+            </div><!--end textWrap2-->
+
+
+
+            <div class="box3">
+                <img src="images/home-3.jpg" alt="flowers mug" width="200" height="300">
+                <div class="textWrap3">
+                <h2 id="product3">Decorative Mugs</h2>
+            </div><!--end box3-->
+            </div><!--end textWrap3-->
+
+
+
+            <div class="box4">
+                <img src="images/home-4.jpg" alt="white mug" width="200" height="300">
+                <div class="textWrap4">
+                <h2 id="product4">Simple Mugs</h2>
+            </div><!--end box4-->
+            </div><!--end textWrap4-->
+        </div><!--end outsideBox-->
+            
 
 
 
         <footer id="mainFooter">
-            
-            <div id="footerLogo">
-                <img src="images/logo.png" alt="logo" width="201" height="100">
-            </div><!--end FooterNav-->
 
-             <nav id="footerNav">
-                <h2 class="hidden">Footer Navigation</h2>
+             <nav class="footerNav">
                 <ul>
-                    <li><a href="index.html"></a>Home</li>
-                    <li><a href="gallery.html"></a>Gallery</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="contact.html"></a>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav><!--end footerNav-->
 
@@ -80,24 +89,23 @@
                 <ul id="iconNav">
                     <li id="facebook">
                         <a href="http://www.facebook.com">
-                        <img src="images/facebook.jpg" alt="facebook" width="36" height="36">
-                        </a>
-                    </li>
-                    <li id="instagram">
+                        <img src="images/facebook.jpg" alt="facebook" width="36" height="36"></a></li>
+
+                    <li id="twitter">
                     <a href="http://www.twitter.com">
-                    <img src="images/twitter.jpg" alt="twitter" width="35" height="35">
-                    </a>
-                    </li>
-                </ul>
-            </div>     
+                    <img src="images/twitter.jpg" alt="twitter" width="35" height="35"></a></li>
+                </ul>    
+                <div id="copyRight">
+                <p>We Heart Mugs 2018 &copy;. All Rights Reserved.</p> 
+                </div><!--end socialMedia-->
             
-            <div id="copyRight">
-                <p>We Heart Mugs 2018. All Rights Reserved.</p>
+            
             </div><!--end Copyright-->
+        
         
         </footer><!--end mainFooter-->
     </div><!--end siteContainer-->
-
+<section class="fix"></section>
 <script src="js/main.js"></script>    
 </body>
 </html>
