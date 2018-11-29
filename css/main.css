@@ -348,22 +348,50 @@ text-decoration:none;
 #contactArea
 {
 	width: 445px;
+	height: 635px;
 	background-color: #a096a1;
-	display: flex;
-  	flex-direction: column;
-  	justify-content: flex-start;
-  	flex-wrap: wrap;
   	margin-left: 20px;
+  	dispaly: flex;
+  	flex-direction: column;
+  	justify-content; flex-start;
+  	flex-wrap: wrap;
 }
 
-#contactFrom
+#contactArea 
 {
-	margin-top: 30px;
+
 }
 
-#contactForm h2
+#contactArea h3
 {
-	color: 
+	color: #56575a;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;	
+}
+
+#contactText
+{
+	color: #56575a;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#contactForm
+{
+	margin-top: 60px;
+}
+
+label
+{
+    color: #56575a;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;
+	display: block;	
 }
 
 #mapArea
@@ -371,9 +399,15 @@ text-decoration:none;
 	width: 445px;
 	height: 635px;
 	background-color: #a096a1;
-	display: flex;
-  	flex-direction: column;
-  	justify-content: flex-start;
-  	flex-wrap: wrap;
-  	margin-right: 20px;
+  	margin-left: 20px;
 }
+
+#mapArea h3
+{
+	color: #56575a;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;	
+}
+
