@@ -339,6 +339,26 @@ text-decoration:none;
 	font-size: 22px;
 }
 
+.seeMore 
+{
+	color: #56575a;
+	font-size: 18px;
+	position: relative;
+	bottom: 25px;
+	left: 125px;
+	font-weight: bold;
+}
+
+.top a:hover
+{
+	text-decoration: underline;
+}
+
+.bottom a:hover
+{
+	text-decoration: underline;
+}
+
 .galleryBottom
 {
 	display: flex;
