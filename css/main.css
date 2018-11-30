@@ -62,7 +62,7 @@ text-decoration:none;
 #mainHeader
 {
 	display: flex;
-	flex-dierction: row;
+	flex-direction: row;
 	justify-content: flex-start;
 }
 
@@ -110,7 +110,7 @@ text-decoration:none;
 #mainFooter
 {
 	display: flex;
-	flex-dierction: row;
+	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 20px;
 }
@@ -241,14 +241,22 @@ text-decoration:none;
 	padding: 20px;
 }
 
-#outsideBox
+#productsCon
 {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-evenly;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
-.box1 h2
+.product
+{
+ 	width: 202px;
+ 	height: 300px;
+ 	margin-left: 10px;
+}
+
+.product h3
 {
 	position: relative;
 	bottom: 280px;
@@ -257,7 +265,7 @@ text-decoration:none;
 	color: #6d6e71;
 }
 
-#productText
+.productText p
 {
 	position: relative;
 	bottom: 280px;
@@ -268,31 +276,10 @@ text-decoration:none;
 	padding-left: 2px;
 }
 
-.box2 h2
+.product a:hover
 {
-	position: relative;
-	bottom: 280px;
-	font-weight: bold;
-	text-align: center;
-	color: #6d6e71;
-}
-
-.box3 h2
-{
-	position: relative;
-	bottom: 280px;
-	font-weight: bold;
-	text-align: center;
-	color: #6d6e71;
-}
-
-.box4 h2
-{
-	position: relative;
-	bottom: 280px;
-	font-weight: bold;
-	text-align: center;
-	color: #6d6e71;
+	color: #525152;
+	text-decoration: underline;
 }
 
 /*gallery page*/
@@ -301,7 +288,7 @@ text-decoration:none;
 {
 	background-color: #a096a1;
 	width: 940px;
-	height: 710;
+	height: 710px;
 	margin-left: 20px;
 	display: flex;
 	flex-direction: row;
@@ -324,7 +311,7 @@ text-decoration:none;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 20px;
-	margin-top: 60px;
+	margin-top: 10px;
 	width: 940px;
 	flex-wrap: wrap;
 }
@@ -395,15 +382,9 @@ text-decoration:none;
 	height: 635px;
 	background-color: #a096a1;
   	margin-left: 20px;
-  	dispaly: flex;
+  	display: flex;
   	flex-direction: column;
-  	justify-content; flex-start;
   	flex-wrap: wrap;
-}
-
-#contactArea 
-{
-
 }
 
 #contactArea h3
@@ -449,7 +430,8 @@ input, textarea
   	background-color: white;
   	display: block;
   	border: 1px solid #999;
-  	color: #333;
+  	color: #56575a;
+  	box-shadow:inset 0px 0px 2px 2px #888; background: #fff;
 }
 
 #comments
@@ -475,6 +457,7 @@ input, textarea
   border: 1px solid #56575a;
   cursor: pointer;
   font-weight: bold;
+  box-shadow: 3px 3px #888888;
 }
 
 #mapArea
